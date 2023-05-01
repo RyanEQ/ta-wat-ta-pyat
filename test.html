@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      overflow-x:hidden ;
+    }
+    .review{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0px;
+}
+.review-cont1{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.review-card{
+    width: 45%;
+  border: 4px solid #13586d;
+  padding-bottom: 70px;
+  border-radius: 3px;
+}
+
+.review-upper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    
+    flex-direction: column;
+}
+.review-block{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.review-img{
+    width: 125px;
+    height: 125px;
+    margin: 5px 20px;
+}
+.review-upper p{
+    margin: 20px 30px 50px 30px;
+}
+@media all and (max-width:1128px){
+    .review-cont1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review-card{
+        width: 60%;
+        margin: 30px 0px;
+        padding-bottom: 40px;
+    }
+}
+@media all and (max-width:795px){
+    .review-card{
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .review-cont1 {
+       flex-direction: row;
+       width: 80%;
+       overflow-x: scroll;
+       height: 100%;
+    }
+
+    .review-block{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+  </style>
+</head>
+<body>
+  <div class="fr-rev"></div>
+      <div class="review">
+        <div class="review-cont1">
+            <div class="review-card rev1">
+                <div class="review-upper">
+                    <div class="review-block">
+                    <img src="image/boy.png" class="review-img" alt="">
+                    <h2>Jason Arnold</h2>
+                    </div>
+                    <p>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa sed repudiandae magni. Placeat ut eum hic debitis? Modi nobis fugiat debitis ab! Facilis fugiat dolores alias, quidem cumque suscipit!
+                    </p>
+                </div>
+
+            </div>
+            <div class="review-card rev1">
+                <div class="review-upper">
+                    <div class="review-block">
+                    <img src="image/bussiness-man.png" class="review-img" alt="">
+                    <h2>Donald Duckie</h2>
+                    </div>
+                    <p>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I don't really prepare how they decorate the rooms. And Mdy office is always busy and servies are a bit bad. I had tried once with this website but still one of the worker who decorated my house was so rude and careless with the things. 
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="review">
+        <div class="review-cont1">
+            <div class="review-card rev1">
+                <div class="review-upper">
+                    <div class="review-block">
+                    <img src="image/girl.png" class="review-img" alt="">
+                    <h2>Kimmy Head</h2>
+                    </div>
+
+                    <p>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I love how they decorate the room and the servies are so good. Even the workers are kind and patient. You can even tell them what to do. I really recommand this LOCO decortion company if you have to decorate your room or house.                    </p>
+                </div>
+
+            </div>
+            <div class="review-card rev1">
+                <div class="review-upper">
+                    <div class="review-block">
+                    <img src="image/man.png" class="review-img" alt="">
+                    <h2>Ryan Raynolds</h2>
+                    </div>
+                    
+                    <p>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I really recommand this decoration website because you can tell them how you want to decorate your room and they even recommand you how will the room will be for people like ( for kid or older people)                    </p>
+                </div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>
